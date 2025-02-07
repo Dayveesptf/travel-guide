@@ -1,9 +1,7 @@
 import { createContext, useState } from "react";
 
-// Create the context
 export const NigeriaContext = createContext();
 
-// Provider component
 export const NigeriaProvider = ({ children }) => {
   const [states, setStates] = useState([
     {
@@ -161,6 +159,188 @@ export const NigeriaProvider = ({ children }) => {
         culture1: "Mmanwu Festival – A colorful masquerade festival celebrated by locals.",
         culture2: "Igbo Highlife Music – Popularized by musicians from Enugu.",
         culture3: "Traditional Attire – Igbo cultural dressing remains prominent."
+      },
+      {
+        name: "Gombe",
+        description: "Gombe State, located in northeastern Nigeria, was created in 1996 from Bauchi State. It is known as the 'Jewel in the Savannah' and has a mix of savannah and semi-arid climate. The state's economy is primarily driven by agriculture, with crops like maize, millet, and groundnuts being dominant.",
+        population: "Gombe has an estimated population of about 3.2 million people, with major ethnic groups including the Fulani, Hausa, Tangale, and Tera. The capital, Gombe city, serves as a commercial and administrative hub.",
+        safetydetails: "Gombe is relatively safe but has occasional security concerns, especially in rural areas. Travelers are advised to stay within city centers and use verified transport services.",
+        funfact1: "⭐ Home to the famous Gombe Stream National Park, a conservation area for wildlife.",
+        funfact2: "⭐ Known for its annual hunting festival, which showcases local hunting traditions.",
+        funfact3: "⭐ One of the fastest-growing states in the northeast due to infrastructural development.",
+        culturetitle: "Gombe has a rich cultural heritage, influenced by its diverse ethnic composition.",
+        culture1: "Tangale Dance Festival – A cultural event that features traditional dances and music.",
+        culture2: "Durbar Festival – A horse-riding festival showcasing the Fulani and Hausa heritage.",
+        culture3: "Handwoven Fabrics – Locally made fabrics and crafts are a significant part of Gombe’s culture.",
+      },
+      {
+        name: "Jigawa",
+        description: "Jigawa State, created in 1991 from Kano State, is located in northwestern Nigeria. It is predominantly an agricultural state, producing crops like rice, sorghum, and millet. The state has a vast expanse of arid land, with seasonal rivers and wetlands.",
+        population: "Jigawa has an estimated population of around 5.8 million people, with the Hausa and Fulani ethnic groups being predominant. Dutse, the state capital, is a fast-developing city with growing commercial activities.",
+        safetydetails: "Jigawa is generally peaceful, but travelers should be cautious in border towns due to potential security risks.",
+        funfact1: "⭐ Home to the Hadejia-Nguru Wetlands, an important biodiversity zone.",
+        funfact2: "⭐ Known for its historical connection to the Trans-Saharan trade routes.",
+        funfact3: "⭐ Jigawa produces some of the best rice in Nigeria.",
+        culturetitle: "Jigawa has a rich Islamic and Hausa-Fulani cultural heritage.",
+        culture1: "Argungu Fishing Festival – A popular festival featuring traditional fishing competitions.",
+        culture2: "Hausa Architecture – The state boasts unique traditional architectural designs.",
+        culture3: "Farming Festivals – Celebrations of harvest and communal farming activities.",
+      },
+      {
+        name: "Katsina",
+        description: "Katsina State, created in 1987, is located in northwestern Nigeria and shares a border with Niger Republic. The state has a strong historical significance, being a center of Islamic learning and Hausa civilization.",
+        population: "Katsina has an estimated population of over 7.8 million people, with the Hausa and Fulani being the major ethnic groups. The capital, Katsina city, is a key economic and cultural center in northern Nigeria.",
+        safetydetails: "Katsina has experienced some security challenges, particularly in rural areas. Travelers should remain vigilant and follow security advisories.",
+        funfact1: "⭐ Home to the famous Gobarau Minaret, a centuries-old Islamic tower.",
+        funfact2: "⭐ Katsina is known as the ‘Home of Hospitality.’",
+        funfact3: "⭐ The first university in Northern Nigeria, Umaru Musa Yar’adua University, is located here.",
+        culturetitle: "Katsina is deeply rooted in Islamic and Hausa traditions.",
+        culture1: "Durbar Festival – A grand equestrian display held during Eid celebrations.",
+        culture2: "Traditional Leatherworks – Katsina is famous for its high-quality leather products.",
+        culture3: "Islamic Scholarship – The state has numerous Quranic and Islamic learning centers.",
+      },
+      {
+        name: "Kogi",
+        description: "Kogi State, created in 1991, is located in central Nigeria and is home to the confluence of the Niger and Benue rivers. The state is rich in natural resources and serves as a major transit route between northern and southern Nigeria. Lokoja, the state capital, was historically the first administrative capital of Nigeria during colonial rule. Kogi is home to several ethnic groups, including Igala, Ebira, and Okun, making it one of Nigeria’s most culturally diverse states.",
+        population: "Kogi State has a population of approximately 4.5 million people, with a mix of rural and urban settlements. Lokoja, the capital, is a key trading hub.",
+        safetydetails: "Kogi is generally safe, but travelers should be cautious in remote areas due to occasional security concerns. Urban centers like Lokoja are more secure, but petty crime can occur.",
+        funfact1: "⭐ Lokoja was the first administrative capital of Nigeria.",
+        funfact2: "⭐ The state is home to Mount Patti, where Lord Lugard named Nigeria.",
+        funfact3: "⭐ The Confluence of Rivers Niger and Benue is a major geographical landmark in Kogi.",
+        culturetitle: "Kogi’s culture is shaped by its multi-ethnic population.",
+        culture1: "Ibegwu Festival – A significant Igala festival honoring ancestors.",
+        culture2: "Ebira Masquerade Festival – A colorful and vibrant event with rich traditions.",
+        culture3: "Traditional Weaving – Handwoven fabrics are a key cultural heritage."
+      },
+      {
+        name: "Kwara",
+        description: "Kwara State, established in 1967, is in western Nigeria and shares a border with Benin Republic. The state’s economy thrives on agriculture, trade, and education, with Ilorin, the state capital, serving as a major educational hub. Kwara is known for its cultural blend of Yoruba, Nupe, and Bariba ethnic groups. The state hosts several tourist attractions, including the Esie Museum, home to ancient stone carvings, and Owu Waterfalls, one of Nigeria’s tallest waterfalls.",
+        population: "Kwara has a population of about 3.2 million people, with Ilorin being the most populous city.",
+        safetydetails: "Kwara is relatively peaceful, but travelers should be mindful of local safety advisories in remote areas.",
+        funfact1: "⭐ Kwara is home to Nigeria’s first museum, the Esie Museum.",
+        funfact2: "⭐ Owu Waterfalls, the highest waterfall in West Africa, is in Kwara.",
+        funfact3: "⭐ Ilorin has one of the oldest Islamic schools in Nigeria.",
+        culturetitle: "Kwara's culture is a mix of Yoruba and northern influences.",
+        culture1: "Durbar Festival – A colorful equestrian parade during Islamic celebrations.",
+        culture2: "Ilorin Pottery – Traditional pottery making is a key heritage.",
+        culture3: "Local Cuisine – Popular dishes include Amala and Ilorin’s signature soups."
+      },
+      {
+        name: "Kebbi",
+        description: "Kebbi State, created in 1991, is located in northwestern Nigeria and is known for its rich history and agricultural economy. The state is a leading producer of rice in Nigeria, contributing significantly to food security. Birnin Kebbi, the capital, is an important trade center with strong ties to neighboring Niger. Kebbi hosts the Argungu Fishing Festival, a famous cultural event that attracts visitors from across the country and beyond, celebrating fishing traditions and local heritage.",
+        population: "Kebbi State has a population of about 4.4 million people, with agriculture being the main occupation.",
+        safetydetails: "Kebbi is generally safe, but travelers should remain cautious in border areas.",
+        funfact1: "⭐ Kebbi is Nigeria’s top rice-producing state.",
+        funfact2: "⭐ The Argungu Fishing Festival is one of the oldest festivals in Nigeria.",
+        funfact3: "⭐ The state shares a border with the Republic of Niger.",
+        culturetitle: "Kebbi’s culture reflects its strong Hausa-Fulani traditions.",
+        culture1: "Argungu Fishing Festival – A globally recognized cultural event.",
+        culture2: "Hausa Architecture – The state has unique traditional buildings.",
+        culture3: "Traditional Wrestling – A popular sport in Kebbi’s rural communities."
+      }
+      {
+        name: "Nasarawa",
+        description: "Nasarawa State, created in 1996, is located in central Nigeria and is known for its solid mineral deposits. The state has a blend of cultural and ethnic groups, including the Eggon, Tiv, and Gwandara. Lafia, the capital, is a growing urban center with a mix of traditional and modern lifestyles. Nasarawa is also home to Farin Ruwa Waterfalls, one of Nigeria’s most beautiful natural attractions.",
+        population: "Nasarawa has a population of around 2.5 million people, with agriculture and mining as dominant industries.",
+        safetydetails: "The state is generally peaceful, but some rural areas may have security concerns. Travelers should stay informed about local advisories.",
+        funfact1: "⭐ Nasarawa is known as the 'Home of Solid Minerals.'",
+        funfact2: "⭐ Farin Ruwa Waterfalls is one of the tallest waterfalls in Nigeria.",
+        funfact3: "⭐ The state is a major producer of sesame seeds and yams.",
+        culturetitle: "Nasarawa's culture is influenced by its diverse ethnic communities.",
+        culture1: "Emir of Lafia’s Palace – A historic and cultural landmark.",
+        culture2: "Traditional Wrestling – A popular sporting event in rural areas.",
+        culture3: "Gwandara Festival – A celebration of the Gwandara people's heritage."
+      },
+      {
+        name: "Niger",
+        description: "Niger State, the largest state in Nigeria by landmass, is located in the North-Central region. It is home to the famous Gurara Waterfalls and the Kainji Dam, Nigeria’s major hydroelectric power source. Minna, the state capital, is a center for agriculture and trade. The state is predominantly occupied by the Nupe, Gwari, and Hausa ethnic groups, with a strong history of traditional leadership.",
+        population: "Niger State has a population of approximately 5.5 million people, with Minna being the most urbanized city.",
+        safetydetails: "Niger is relatively safe, but travelers should be cautious in remote areas due to sporadic security issues.",
+        funfact1: "⭐ Niger is home to Nigeria’s largest hydroelectric power dam, Kainji Dam.",
+        funfact2: "⭐ The Zuma Rock, a massive monolith, is located in Niger State.",
+        funfact3: "⭐ Minna was once home to famous Nigerian leaders such as Ibrahim Babangida and Abdulsalami Abubakar.",
+        culturetitle: "Niger’s culture is rich with Nupe and Gwari traditions.",
+        culture1: "Nupe Day Festival – A celebration of the Nupe people’s history.",
+        culture2: "Gurara Waterfalls – A site of cultural and religious significance.",
+        culture3: "Traditional Pottery – The state is famous for its unique pottery designs."
+      },
+      {
+        name: "Osun",
+        description: "Osun State, created in 1991, is in southwestern Nigeria and is famous for its rich Yoruba heritage. Osogbo, the state capital, is home to the UNESCO-listed Osun-Osogbo Sacred Grove, a major cultural and spiritual site. The state is also known for its vibrant festivals, including the Osun Festival, which attracts tourists worldwide. Agriculture and small-scale industries drive the state's economy.",
+        population: "Osun State has a population of about 4.7 million people, with a predominantly Yoruba-speaking population.",
+        safetydetails: "Osun is generally peaceful, with occasional political tensions. Visitors should stay aware of local developments.",
+        funfact1: "⭐ The Osun-Osogbo Sacred Grove is a UNESCO World Heritage Site.",
+        funfact2: "⭐ Osun State is named after the Osun River, which is believed to have spiritual significance.",
+        funfact3: "⭐ The state is known for its traditional textile industry, including Adire fabric.",
+        culturetitle: "Osun’s culture is deeply rooted in Yoruba traditions.",
+        culture1: "Osun Festival – A grand annual festival dedicated to the river goddess.",
+        culture2: "Egungun Festival – A traditional masquerade festival celebrating Yoruba ancestors.",
+        culture3: "Adire Textile – A famous indigo-dyed fabric handcrafted in Osogbo."
+      },
+      {
+        name: "Plateau",
+        description: "Plateau State, located in central Nigeria, is known for its scenic landscapes, temperate climate, and rich cultural heritage. The capital, Jos, was a colonial administrative hub and remains a center of tourism and education. The state is home to many ethnic groups, including the Berom, Afizere, and Anaguta, each contributing to its cultural diversity.",
+        population: "Plateau State has an estimated population of about 4.2 million people.",
+        safetydetails: "While Jos has seen periods of interethnic tension, the city remains relatively peaceful with security measures in place. Visitors should remain cautious in certain areas.",
+        funfact1: "⭐ Plateau is known as the ‘Home of Peace and Tourism.’",
+        funfact2: "⭐ Jos has one of the coolest climates in Nigeria due to its high altitude.",
+        funfact3: "⭐ The state is a leading producer of potatoes and vegetables in Nigeria.",
+        culturetitle: "Plateau’s culture is a blend of indigenous traditions and colonial influences.",
+        culture1: "Nzem Berom Festival – Celebrates Berom heritage and traditions.",
+        culture2: "Jos Museum – A historical site showcasing Nigeria’s cultural artifacts.",
+        culture3: "Traditional Weaving – The state is known for its handcrafted fabrics."
+      },
+      {
+        name: "Sokoto",
+        description: "Sokoto State, located in northwestern Nigeria, is the historical seat of the Sokoto Caliphate, an important Islamic empire in West Africa. The capital, Sokoto, is a center for Islamic learning and culture. The state is largely populated by the Hausa and Fulani ethnic groups and is known for its rich history and agricultural activities.",
+        population: "Sokoto State has a population of approximately 5.3 million people.",
+        safetydetails: "The state is generally peaceful but travelers should stay informed about local security updates, especially in rural areas.",
+        funfact1: "⭐ Sokoto is known as the ‘Seat of the Caliphate.’",
+        funfact2: "⭐ The state experiences some of the hottest temperatures in Nigeria.",
+        funfact3: "⭐ Sokoto is famous for its high-quality leather products.",
+        culturetitle: "Sokoto’s culture is deeply rooted in Islamic and Fulani traditions.",
+        culture1: "Durbar Festival – A grand equestrian display marking Islamic celebrations.",
+        culture2: "Sokoto Caliphate Palace – A historic and cultural landmark.",
+        culture3: "Tie and Dye Textiles – A traditional craft passed down through generations."
+      },
+      {
+        name: "Taraba",
+        description: "Taraba State, located in northeastern Nigeria, is known for its diverse ethnic groups, beautiful landscapes, and natural attractions. The capital, Jalingo, is a growing city with a mix of traditional and modern influences. Taraba is home to the Mambilla Plateau, which boasts Nigeria’s highest altitude and cool weather.",
+        population: "Taraba has an estimated population of about 3 million people.",
+        safetydetails: "The state is largely peaceful, but some remote areas may have security concerns. Travelers should stay informed about local advisories.",
+        funfact1: "⭐ Taraba is known as ‘Nature’s Gift to the Nation.’",
+        funfact2: "⭐ The Mambilla Plateau has the highest altitude in Nigeria.",
+        funfact3: "⭐ Taraba is a major producer of tea and coffee in Nigeria.",
+        culturetitle: "Taraba’s culture is influenced by its over 30 ethnic groups.",
+        culture1: "Kambari Festival – Celebrates the culture of the Kambari people.",
+        culture2: "Mambilla Plateau – A site of cultural and historical significance.",
+        culture3: "Traditional Horse Riding – A popular activity among the Fulani people."
+      },
+      {
+        name: "Yobe",
+        description: "Yobe State, located in northeastern Nigeria, is known for its rich history, desert landscape, and agricultural activities. The capital, Damaturu, is a developing city that serves as an administrative and commercial hub. The state is predominantly populated by the Kanuri and Fulani ethnic groups, and it shares a border with Niger Republic.",
+        population: "Yobe has an estimated population of about 3.4 million people.",
+        safetydetails: "Yobe has experienced security challenges in the past but has seen improvements in stability. Travelers should stay informed and follow local security advisories.",
+        funfact1: "⭐ Yobe is home to Nigeria’s portion of the Sahara Desert.",
+        funfact2: "⭐ The state has some of the largest livestock markets in Nigeria.",
+        funfact3: "⭐ Yobe is known for its date palm plantations and fish farming industry.",
+        culturetitle: "Yobe’s culture is deeply rooted in Kanuri and Fulani traditions.",
+        culture1: "Durbar Festival – A colorful equestrian parade during major celebrations.",
+        culture2: "Pottery and Leatherwork – Handcrafted items made using traditional techniques.",
+        culture3: "Traditional Wrestling – A popular sporting and cultural activity."
+      },
+      {
+        name: "Zamfara",
+        description: "Zamfara State, located in northwestern Nigeria, is known for its vast agricultural land and rich cultural heritage. The capital, Gusau, is a commercial and administrative center. The state is largely populated by the Hausa and Fulani ethnic groups, with Islam being the predominant religion.",
+        population: "Zamfara has an estimated population of about 4.5 million people.",
+        safetydetails: "The state has faced security concerns in rural areas. Travelers should be cautious and stay updated on local security reports.",
+        funfact1: "⭐ Zamfara is one of Nigeria’s leading producers of gold and other minerals.",
+        funfact2: "⭐ The state has a strong tradition of Islamic scholarship and learning.",
+        funfact3: "⭐ Zamfara’s economy is largely driven by agriculture and cattle rearing.",
+        culturetitle: "Zamfara’s culture is influenced by Hausa traditions and Islamic heritage.",
+        culture1: "Hawan Sallah – A grand horse-riding festival during Islamic celebrations.",
+        culture2: "Zamfara Leatherworks – The state is famous for high-quality leather products.",
+        culture3: "Gidan Sarki Palace – A historic landmark representing Hausa architecture."
       }
   ]);
 
