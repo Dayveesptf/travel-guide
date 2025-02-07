@@ -237,7 +237,7 @@ export const NigeriaProvider = ({ children }) => {
         culture1: "Argungu Fishing Festival – A globally recognized cultural event.",
         culture2: "Hausa Architecture – The state has unique traditional buildings.",
         culture3: "Traditional Wrestling – A popular sport in Kebbi’s rural communities."
-      }
+      },
       {
         name: "Nasarawa",
         description: "Nasarawa State, created in 1996, is located in central Nigeria and is known for its solid mineral deposits. The state has a blend of cultural and ethnic groups, including the Eggon, Tiv, and Gwandara. Lafia, the capital, is a growing urban center with a mix of traditional and modern lifestyles. Nasarawa is also home to Farin Ruwa Waterfalls, one of Nigeria’s most beautiful natural attractions.",

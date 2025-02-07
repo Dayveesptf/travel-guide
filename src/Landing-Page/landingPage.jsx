@@ -22,6 +22,7 @@ const LandingPage = () => {
   };
 
   return (
+    <div>
     <input
       type="text"
       placeholder="Search for a state..."
@@ -29,7 +30,17 @@ const LandingPage = () => {
       onChange={handleSearch}
       className="mt-4 p-3 w-full max-w-md rounded-md text-black"
     />
-          
+
+    {filteredStates.length > 0 && (
+      <div style={{ backgroundColor: 'red' }}>
+        {filteredStates.map((state) => (
+          <div key={state.name}>
+            {state.name}
+          </div>
+        ))}
+      </div>
+    )}
+  </div>        
   );
 };
 
