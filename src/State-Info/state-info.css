@@ -1,0 +1,19 @@
+.sections {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  
+  .sections.visible {
+    animation: slideUp 0.7s ease forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
